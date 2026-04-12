@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tucker Middleton | CS499 Computer Science Capstone</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background-color: #a8a6a8;
+      color: #020202;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 30px 40px 60px;
+      background-color: #a8a6a8;
+    }
+
+    header {
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    h1 {
+      color: #294c7b;
+      font-size: 3rem;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #4d4037;
+      font-size: 2rem;
+      margin-top: 45px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      color: #294c7b;
+      font-size: 1.6rem;
+      margin-top: 35px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 14px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #294c7b;
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .specialization {
+      text-align: center;
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .divider {
+      border: none;
+      border-top: 2px solid #a8a6a8;
+      margin: 18px 0 28px;
+    }
+
+    nav {
+      text-align: center;
+      margin: 10px 0 30px;
+    }
+
+    nav a {
+      color: #295a7b;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 12px;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .links {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .links a {
+      color: #7b294f;
+      text-decoration: underline;
+      font-weight: bold;
+      display: inline-block;
+      margin-right: 18px;
+      margin-bottom: 8px;
+    }
+
+    .hero-box {
+      text-align: center;
+      margin: 10px 0 30px;
+    }
+
+    .hero-box p {
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    .project-section {
+      margin-top: 40px;
+    }
+
+    .image-full {
+      display: block;
+      width: 100%;
+      max-width: 900px;
+      margin: 18px auto;
+      border: 1px solid #8b7f73;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      background: #fff;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+      margin: 20px 0;
+    }
+
+    .image-card {
+      background: #a8a6a8;
+      border: 1px solid #b9aea2;
+      padding: 12px;
+      text-align: center;
+    }
+
+    .image-card img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #8b7f73;
+      background: #fff;
+    }
+
+    .image-card p {
+      margin-top: 10px;
+      font-size: 0.98rem;
+      font-weight: bold;
+      color: #5d4b42;
+    }
+
+    .note-box {
+      background: #cccccb;
+      border-left: 5px solid #7b294f;
+      padding: 14px 16px;
+      margin: 20px 0;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding-top: 20px;
+      font-size: 0.95rem;
+      color: #6a5b50;
+    }
+
+    ul {
+      margin-top: 8px;
+      margin-bottom: 16px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2.3rem;
+      }
+
+      .subtitle {
+        font-size: 1.5rem;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 6px 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <h1>Computer Science Capstone</h1>
+      <div class="subtitle">CS-499 | SNHU</div>
+      <div class="specialization">
+        Tucker Middleton &nbsp;|&nbsp; Specialization: Data Analysis and IT Administration
+      </div>
+      <hr class="divider" />
+
+      <nav>
+        <a href="#code-review">Code Review</a>
+        <a href="#project1">Software Engineering</a>
+        <a href="#project2">Algorithms</a>
+        <a href="#project3">Databases</a>
+        <a href="#supporting">Supporting Project</a>
+        <a href="#self-assessment">Self-Assessment</a>
+      </nav>
+    </header>
+
+    <section class="hero-box">
+      <p>
+        Welcome to my final ePortfolio for the Computer Science program at Southern New Hampshire University.
+        This portfolio represents my technical growth across software design and engineering, algorithms and
+        data structures, and databases. It includes original and enhanced artifacts, a code review, project
+        narratives, and a professional self-assessment that reflects my development throughout the program.
+      </p>
+    </section>
+
+    <section id="code-review">
+      <h2>Code Review</h2>
+      <p>
+        The code review served as the foundation for my capstone enhancements. In this review, I analyzed the
+        original state of my selected artifacts, identified weaknesses in structure, efficiency, testing,
+        maintainability, and security, and explained the enhancements I planned to implement. This process
+        supported collaboration and technical decision-making by clearly communicating the purpose of each
+        artifact and the reasoning behind the improvements.
+      </p>
+
+      <div class="links">
+        <a href="youtube.com/watch?v=ZyF9gnPU3sE&feature=youtu.be" target="_blank">Watch Code Review Video</a>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <section id="project1" class="project-section">
+      <h2>Project 1: Software Engineering and Design</h2>
+      <h3>CS320 Enhanced Contact, Task, and Appointment Service Application</h3>
+
+      <p>
+        This artifact was selected for the software design and engineering category because it demonstrates
+        my ability to improve an existing Java application into a more maintainable and professional system.
+        The original project focused on object-oriented programming and service-layer logic. For my capstone
+        enhancement, I refactored the application into a layered architecture using model, service,
+        repository, exception, and database layers.
+      </p>
+
+      <p>
+        The enhanced version improves separation of concerns, maintainability, and scalability while preserving
+        the original functionality. The project also uses Maven, JUnit, and SQLite to support testing,
+        persistence, and cleaner software organization. This artifact demonstrates my growth in software
+        architecture, validation, testing, and structured application development.
+      </p>
+
+      <div class="links">
+        <a href="https://github.com/tucks-dev/tucks-dev.github.io/tree/CS320Artifact" target="_blank">View Project Branch</a>
+      </div>
+
+      <div class="image-grid">
+        <div class="image-card">
+          <img src="assets/contacts.png" alt="Contacts table screenshot from CS320 enhanced project">
+          <p>Contacts table with persistent SQLite storage</p>
+        </div>
+        <div class="image-card">
+          <img src="assets/tasks.png" alt="Tasks table screenshot from CS320 enhanced project">
+          <p>Tasks table showing database-backed records</p>
+        </div>
+        <div class="image-card">
+          <img src="assets/appointments.png" alt="Appointments table screenshot from CS320 enhanced project">
+          <p>Appointments table integrated into the application schema</p>
+        </div>
+      </div>
+
+      <div class="note-box">
+        <strong>Skills demonstrated:</strong> layered architecture, repository pattern, input validation,
+        automated testing, maintainability, persistent storage, and professional software design.
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <section id="project2" class="project-section">
+      <h2>Project 2: Algorithms and Data Structures</h2>
+      <h3>CS340 Enhanced Grazioso Salvare Dashboard</h3>
+
+      <p>
+        This artifact was selected for the algorithms and data structures category because it demonstrates
+        data-driven filtering, efficient query construction, and structured data processing in an interactive
+        dashboard. The original project connected animal shelter data to a Dash-based interface with a data
+        table, pie chart, and map.
+      </p>
+
+      <p>
+        For the enhancement, I centralized the rescue filter criteria into a reusable query structure and
+        improved the project by supporting aggregation-style breed calculations closer to the data source.
+        This reduced repeated filtering logic and made the application easier to maintain and scale. I also
+        adapted the project for local development and testing when the original remote environment was not
+        available.
+      </p>
+
+      <div class="links">
+        <a href="https://github.com/tucks-dev/tucks-dev.github.io/tree/CS340Artifact" target="_blank">View Project Branch</a>
+      </div>
+
+      <img src="assets/dashboard.png" alt="Enhanced Grazioso Salvare dashboard screenshot" class="image-full">
+
+      <div class="note-box">
+        <strong>Skills demonstrated:</strong> algorithmic thinking, efficient data handling, reusable query
+        logic, dashboard design, aggregation-based processing, and structured data visualization.
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <section id="project3" class="project-section">
+      <h2>Project 3: Databases</h2>
+      <h3>CS320 Relational Database Enhancement</h3>
+
+      <p>
+        This artifact was selected for the databases category because it allowed me to extend the same CS320
+        application into a stronger relational database solution. Building on the software engineering
+        enhancement, I expanded the project into a multi-table SQLite application with structured relationships
+        between contacts, tasks, and appointments.
+      </p>
+
+      <p>
+        The enhanced version demonstrates relational schema design, persistent storage, foreign key structure,
+        indexed lookups, and secure prepared statements. These additions transformed the original project from
+        a single in-memory application into a more realistic database-driven system and clearly demonstrate my
+        growth in database design and implementation.
+      </p>
+
+      <div class="links">
+        <a href="https://github.com/tucks-dev/tucks-dev.github.io/tree/CS320Artifact" target="_blank">View Project Branch</a>
+      </div>
+
+      <div class="image-grid">
+        <div class="image-card">
+          <img src="assets/contacts.png" alt="Contacts table">
+          <p>Parent entity in the relational schema</p>
+        </div>
+        <div class="image-card">
+          <img src="assets/tasks.png" alt="Tasks table">
+          <p>Task records associated with application data</p>
+        </div>
+        <div class="image-card">
+          <img src="assets/appointments.png" alt="Appointments table">
+          <p>Appointment records supporting structured persistence</p>
+        </div>
+      </div>
+
+      <div class="note-box">
+        <strong>Skills demonstrated:</strong> relational schema design, database persistence, repository-based
+        data access, foreign key planning, prepared statements, and secure data handling practices.
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <section id="supporting" class="project-section">
+      <h2>Additional Supporting Project</h2>
+      <h3>Mutiny Mob Website</h3>
+
+      <p>
+        In addition to my three primary capstone artifacts, I included the Mutiny Mob website as a supporting
+        project to demonstrate a broader range of technical experience. This project highlights practical web
+        development, user-facing design, backend integration, and structured data management in a real
+        application context.
+      </p>
+
+      <p>
+        Mutiny Mob strengthens my portfolio by showing that my technical experience extends beyond academic
+        enhancements and includes work with web interfaces, user workflows, application organization, and
+        backend data management. While it is not one of my three required primary artifacts, it supports the
+        overall depth and range of my ePortfolio.
+      </p>
+
+      <div class="links">
+        <a href="https://github.com/tucks-dev/tucks-dev.github.io/tree/MutinyMobWebsite" target="_blank">View Supporting Project Branch</a>
+        <a href="https://github.com/Tucks-dev/Tucks-dev.github.io/releases/tag/v1.0-capstone" target="_blank">Download Full Project Release</a>
+      </div>
+
+      <div class="image-grid">
+        <div class="image-card">
+          <img src="assets/mmhome.png" alt="Mutiny Mob homepage screenshot">
+          <p>Homepage and main navigation interface</p>
+        </div>
+        <div class="image-card">
+          <img src="assets/logs.png" alt="Mutiny Mob logs page screenshot">
+          <p>Logs page showing application data and filtering</p>
+        </div>
+        <div class="image-card">
+          <img src="assets/firebase.png" alt="Firebase backend screenshot">
+          <p>Backend collections supporting the application data model</p>
+        </div>
+      </div>
+
+      <div class="note-box">
+        <strong>Skills demonstrated:</strong> web application development, backend organization, data
+        management, interface design, and practical deployment-oriented project structure.
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <section id="self-assessment">
+      <h2>Professional Self-Assessment</h2>
+      <p>
+        My time in the Computer Science program at Southern New Hampshire University helped me strengthen both
+        my technical abilities and my professional direction. Throughout the program, I developed experience in
+        software design, object-oriented programming, algorithms, data structures, database development,
+        testing, and technical communication. These experiences helped shape my specialization in data analysis
+        and IT administration and gave me the opportunity to build skills that are directly relevant to my
+        career goals.
+      </p>
+
+      <p>
+        The artifacts in this portfolio fit together as a representation of my overall growth. The CS320
+        software engineering enhancement shows my ability to improve architecture and maintainability. The
+        CS340 dashboard demonstrates my ability to improve data processing and apply algorithmic thinking to a
+        real-world style interface. The CS320 database enhancement demonstrates my understanding of relational
+        database structure, persistence, and secure data access. Together, these artifacts show not only what I
+        can build, but how I evaluate, improve, and present technical work in a professional setting.
+      </p>
+
+      <p>
+        In addition to technical skills, the capstone process also strengthened my ability to communicate
+        clearly, organize a portfolio for different audiences, and connect coursework to real career goals. I
+        also became more aware of the importance of validation, security-minded design, and maintaining systems
+        that can evolve over time. This portfolio represents the strongest examples of my work and reflects the
+        progress I made throughout the program.
+      </p>
+
+    </section>
+
+    <footer>
+      <hr class="divider" />
+      <p>
+        Tucker Middleton | CS499 Computer Science Capstone | Southern New Hampshire University
+      </p>
+    </footer>
+
+  </div>
+</body>
+</html>
