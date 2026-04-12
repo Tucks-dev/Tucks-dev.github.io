@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Java
+target/
+*.class
+
+# Local databases
+*.db
+
+# Logs
+*.log
+
+*.project.json
+project.json
