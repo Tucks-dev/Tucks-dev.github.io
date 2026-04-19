@@ -45,16 +45,6 @@ These changes improved the efficiency and organization of the application while 
 - MongoDB
 - PyMongo
 
-## Included Materials
-
-This branch may include:
-
-- original artifact files
-- enhanced artifact files
-- screenshots
-- milestone narrative
-- local fallback data for development/testing
-
 ## Purpose in My ePortfolio
 
 This project was selected because it demonstrates how I can improve the efficiency, maintainability, and organization of a data-driven application. It is my primary artifact for illustrating growth in algorithms and data structures.
