@@ -59,15 +59,6 @@ These changes transformed the application from an in-memory academic exercise in
 - JUnit
 - SQLite
 
-## Included Materials
-
-This branch may include:
-
-- original artifact files
-- enhanced artifact files
-- supporting documentation
-- milestone narratives
-- screenshots
 
 ## Purpose in My ePortfolio
 
